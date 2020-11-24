@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <main>
+        <div class="form">
+            <form name="contact" method="POST" data-netlify="true">
+                <label for="naam">Naam</label>
+                <input type="text" id="naam" name="naam">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+                <label for="telephone">Telefoonnummer</label>
+                <input type="tel" id="telephone" name="telephone">
+                <label for="age">Leeftijd</label>
+                <input type="number" id="age" name="age">
+                <label for="date">Geboortedatum</label>
+                <input type="date" id="date" name="date">
+
+                <div class="inline">
+                <label >Geslacht</label>
+                <br>
+                
+                <label class="letter" for="gender">Man</label>
+                <input type="radio" id="gender1" name="gender">
+            
+                <label class="letter" for="gender">Vrouw</label>
+                <input type="radio" id="gender2" name="gender">
+            
+                <br>
+            
+                
+                <label >Favoriete keuken</label>
+                <br>
+                <label class="letter" for="cuisine">Frans</label>
+                <input type="checkbox" id="cuisine1" name="cuisine">
+                <label class="letter" for="cuisine">Italiaans</label>
+                <input type="checkbox" id="cuisine2" name="cuisine">
+                <label class="letter" for="cuisine">Spaans</label>
+                <input type="checkbox" id="cuisine3" name="cuisine">
+                <label class="letter" for="cuisine">Arabisch</label>
+                <input type="checkbox" id="cuisine4" name="cuisine">
+                <br>
+            </div>
+
+                <label for="color">Kleur van short</label>
+                <input type="color" id="color" name="color">
+                <label for="textarea">Biografie</label>
+                <br>
+                <textarea id="textarea" name="textarea" rows="4" cols="22"></textarea>
+                <br>
+                <br>
+                <label for="upload">Upload jouw laatste recept</label>
+                <input type="file" id="upload" name="upload">
+                <br>
+                <label for="url">Link naar jouw website</label>
+                <input type="url" id="website" name="website">
+                <br>
+                <input type="reset" id="reset" name="reset">
+                <br>
+                <input type="submit" id="submit" name="submit">
+
+
+
+            </form>
+
+        </div>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
